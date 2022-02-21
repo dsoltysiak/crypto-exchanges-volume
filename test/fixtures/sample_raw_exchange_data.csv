@@ -1,0 +1,5 @@
+"exchangeId","name","rank","percentTotalVolume","volumeUsd","tradingPairs","socket","exchangeUrl","updated"
+"binance","Binance",1,"27.83372","8855176098.0176347673795951",958,1,"https://www.binance.com/","1645444380183"
+"hitbtc","HitBTC",2,"8.52185","2711189718.7688861002813519",964,1,"https://hitbtc.com/","1645444333475"
+"okex","Okex",3,"7.02962","2236444161.1450471011310466",422,0,"https://www.okex.com/","1645444379551"
+"gdax","Coinbase Pro",4,"7.00356","2228152612.8643831291716896",347,1,"https://pro.coinbase.com/","1645444379148"
