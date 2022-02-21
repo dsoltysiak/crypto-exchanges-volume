@@ -1,3 +1,3 @@
 SHELL=/bin/bash
 HOME=/
-*/5 * * * * WAREHOUSE_USER=postgres WAREHOUSE_PASSWORD=postgres WAREHOUSE_DB=finance WAREHOUSE_HOST=warehouse WAREHOUSE_PORT=5432  PYTHONPATH=/code/src /usr/local/bin/python /code/src/cryptomonitor/exchange_data_etl.py
+0 * * * * WAREHOUSE_USER=postgres WAREHOUSE_PASSWORD=postgres WAREHOUSE_DB=finance WAREHOUSE_HOST=warehouse WAREHOUSE_PORT=5432  PYTHONPATH=/code/src /usr/local/bin/python /code/src/cryptomonitor/exchange_data_etl.py
