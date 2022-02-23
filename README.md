@@ -4,6 +4,7 @@ The project consists of an ETL pipeline to pull the data about cryptocurrency ex
 
 ## Architecture
 In this project, PostgreSQL serves as a Data Warehouse. In the ETL process, there is python used, and since there are not many scripts to be scheduled, I have decided to use cron instead of setting up a framework like an Airflow. The cron job is scheduled to run every hour.
+
 ![architecture](/images/architecture.png)
 
 ## Visualization
