@@ -3,8 +3,7 @@
 The project consists of an ETL pipeline to pull the data about cryptocurrency exchanges using the [CoinCap API](https://docs.coincap.io/). The data is then loaded into the data warehouse and visualized on the dashboard created in Metabase. The goal was to show how the volume in the last 24 hours changes in time across the exchanges and see the top 10 ones. Everything is containerized using Docker and is working on the Amazon EC2 instance.
 
 ## Architecture
-Since there are not many scripts to be scheduled, I have decided to use cron instead of setting up a framework like an Airflow. The cron job is scheduled to run every hour. 
-
+In this project, PostgreSQL serves as a Data Warehouse. In the ETL process, there is python used, and since there are not many scripts to be scheduled, I have decided to use cron instead of setting up a framework like an Airflow. The cron job is scheduled to run every hour.
 ![architecture](/images/architecture.png)
 
 ## Visualization
